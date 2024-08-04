@@ -41,9 +41,6 @@ const proxyUrl: string = "https://proxy-conv-f6a5d00f4c2b.herokuapp.com/fetch-da
     flex: 1;
     padding: 20px;
     margin: 10px;
-    // border: 1px solid #ddd;
-    // background-color: #f8f9fa;
-    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     min-width: 400px;
   `;
 
