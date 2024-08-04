@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import Rate from "../types/Rate";
 
 interface ConvertFormProps {
   rates?: Rate[];

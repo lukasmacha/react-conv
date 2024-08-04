@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import styled from "styled-components";
 import ConvertForm from "./ConvertForm";
 import RateTable from "./RateTable";
+import Rate from "../types/Rate";
 
 const urlOrigin: string =
   "https://www.cnb.cz/en/financial-markets/foreign-exchange-market/central-bank-exchange-rate-fixing/central-bank-exchange-rate-fixing/daily.txt";
@@ -58,7 +59,7 @@ function App() {
         .split("\n")
         .slice(2)
         .map(parseLine)
-        .filter((r) => !!r); // skip first two lines
+        .filter((r) => !!r) as Rate[]; // skip first two lines
     },
   });
 

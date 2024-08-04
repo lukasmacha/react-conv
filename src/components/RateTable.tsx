@@ -1,4 +1,5 @@
 import React from "react";
+import Rate from "../types/Rate";
 
 interface RateTableProps {
   data?: Rate[];

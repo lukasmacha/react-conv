@@ -1,4 +1,4 @@
-interface Rate {
+export default interface Rate {
     country: string;
     currency: string;
     amount: number;
